@@ -1,14 +1,4 @@
-/************************************************************************
-Copyright 2013-2014 - RV-VLSI. All Rights Reserved.
-*************************************************************************
-Author:         gerard@rv-vlsi.com
 
-Filename:	ram_if.sv   
-
-Date:   	1st July 2014
-
-Version:	1.0
-************************************************************************/
 interface ram_if(input bit clk,reset);
 //Declaring signals with width
   logic[7:0] data_in,data_out;
