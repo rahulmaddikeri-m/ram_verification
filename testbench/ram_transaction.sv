@@ -8,7 +8,7 @@ class ram_transaction;
        bit [7:0]data_out;
 //CONSTRAINTS for write_enb and read_enb
 constraint wr_rd_constraint { {write_enb,read_enb} inside {[1:2]};}
-constraint wr_not_equal_rd  { {write_enb,read_enb}!=2'b11;}
+
 
 //METHODS
 //Copying objects for blueprint This is a deep copy function
