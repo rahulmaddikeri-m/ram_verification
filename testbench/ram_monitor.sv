@@ -1,7 +1,7 @@
 
 `include "defines.sv"
 class ram_monitor;
-//PROPERTIES
+
   //Ram transaction class handle
     ram_transaction mon_trans;
   //Mailbox for monitor to scoreboard connection
