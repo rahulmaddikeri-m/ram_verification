@@ -1,14 +1,4 @@
-/************************************************************************
-Copyright 2013-2014 - RV-VLSI. All Rights Reserved.
-*************************************************************************
-Author:         gerard@rv-vlsi.com
 
-Filename:	ram_monitor.sv   
-
-Date:   	1st July 2014
-
-Version:	1.0
-************************************************************************/
 `include "defines.sv"
 class ram_monitor;
 //PROPERTIES
